@@ -6,7 +6,7 @@ Permiten pausar la ejecución del programa en un punto específico y analizar va
 
 💡 Ejemplo de uso en código Java:
 
-![Breakpoint](..\..\zImages\BreakPoint.png)
+![Breakpoint](../../zImages/BreakPoint.png)
 
 <details>
   <summary>📌 Ver diagrama</summary>
