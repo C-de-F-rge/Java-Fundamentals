@@ -6,12 +6,7 @@ Permiten pausar la ejecución del programa en un punto específico y analizar va
 
 💡 Ejemplo de uso en código Java:
 
-<details>
-  <summary>📌 Ver imagen del Breakpoint</summary>
-
-  ![Breakpoint](..\..\zImages\BreakPoint.png)
-
-</details>
+![Breakpoint](..\..\zImages\BreakPoint.png)
 
 
 # Lenguaje de Alto Nivel
