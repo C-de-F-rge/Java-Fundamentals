@@ -1,22 +1,5 @@
 ## 1. Definiciones Básicas
 
-# BreakPoints
-Los breakpoints son puntos de interrupción que puedes establecer en tu código cuando depuras (debugging).
-Permiten pausar la ejecución del programa en un punto específico y analizar variables, memoria y flujo de ejecución.
-
-💡 Ejemplo de uso en código Java:
-
-![Breakpoint](../../zImages/BreakPoint.png)
-
-<details>
-  <summary>📌 Ver diagrama</summary>
-
-  ![Diagrama](../../zImages/BreakPoint.png)
-
-</details>
-
-
-
 # Lenguaje de Alto Nivel
 Un lenguaje de alto nivel es un lenguaje de programación diseñado para ser fácil de leer y escribir por los humanos. Se abstrae de los detalles específicos del hardware, permitiendo escribir código sin preocuparse por la gestión de memoria o la arquitectura del procesador.
 
@@ -25,6 +8,7 @@ Un lenguaje de alto nivel es un lenguaje de programación diseñado para ser fá
 System.out.println("Hola, mundo!"); // Imprime texto en la consola
 ```
 
+---
 
 # Lenguaje Orientado a Objetos
 Un lenguaje orientado a objetos (OOP) organiza el código en "objetos", que combinan datos (atributos) y comportamientos (métodos). Java sigue este paradigma, permitiendo modelar elementos del mundo real como clases y objetos.
@@ -40,6 +24,7 @@ class Persona {
 }
 ```
 
+---
 
 # Compilar
 Compilar es el proceso de convertir el código fuente **(.java)** en un código intermedio llamado bytecode **(.class)**, que puede ser ejecutado por la Java Virtual Machine **(JVM)**.
@@ -49,6 +34,7 @@ Compilar es el proceso de convertir el código fuente **(.java)** en un código 
 javac MiPrograma.java  # Compila el código fuente a bytecode
 ```
 
+---
 
 # Ejecutar
 Ejecutar un programa en Java significa correr el bytecode **(.class)** dentro de la **JVM**, que lo traduce a instrucciones que el sistema operativo pueda entender.
@@ -58,6 +44,20 @@ Ejecutar un programa en Java significa correr el bytecode **(.class)** dentro de
 java MiPrograma  # Ejecuta el programa
 ```
 
+---
+
+# BreakPoints
+Los breakpoints son puntos de interrupción que puedes establecer en tu código cuando depuras (debugging).
+Permiten pausar la ejecución del programa en un punto específico y analizar variables, memoria y flujo de ejecución.
+
+<details>
+  <summary>💡 Ejemplo de BreakPoint:</summary>
+
+  ![Diagrama](../../zImages/BreakPoint.png)
+
+</details>
+
+---
 
 # Debuguear
 Debuguear es el proceso de encontrar y corregir errores en el código. Se pueden usar herramientas como **IntelliJ IDEA** o **VS Code** para poner breakpoints y analizar el flujo del programa en tiempo de ejecución.
@@ -84,6 +84,8 @@ class MiClase { }  // Correcto
 class miClase { }  // Incorrecto según la convención
 ```
 
+---
+
 # Java Virtual Machine Specification (_JVMS_)
 El **JVMS** define cómo la Java Virtual Machine **(JVM)** ejecuta el código **Java**. Especifica cómo el _bytecode_ es interpretado, optimizado y ejecutado en diferentes sistemas operativos.
 
@@ -94,6 +96,8 @@ La _JVM_ maneja la recolección de basura (Garbage Collection) automáticamente 
 MiClase obj = new MiClase();
 obj = null;  // La JVM liberará esta memoria en algún momento
 ```
+
+---
 
 # Standar Edition (_SE_) of Java Application Programming (_API_)
 
