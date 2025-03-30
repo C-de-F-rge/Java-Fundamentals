@@ -1,6 +1,6 @@
 ## JAVA
 
-Es un Lenguaje de Programación de ([Alto Nivel](\00_Definiciones.md)) y ([Orientado a Objetos](\00_Definiciones.md))
+Es un Lenguaje de Programación de ([Alto Nivel](/aINTRODUCCIÓN/ConceptosBásicos/00_Definiciones.md)) y ([Orientado a Objetos](/aINTRODUCCIÓN/ConceptosBásicos/00_Definiciones.md))
 creado ([**James Gosling**](https://en.wikipedia.org/wiki/James_Gosling)) en el año 1991.
 
 ---

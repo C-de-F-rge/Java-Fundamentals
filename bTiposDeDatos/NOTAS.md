@@ -13,4 +13,4 @@ Donde **string** es un primitivo que almacena un dato de manera STACK, mientras 
 **String** el cual es un objeto que hereda de la clase misma métodos como por ejemplo
 **length(), charAt(int index), isEmpty(), isBlank()** por tanto lo que se guarde en este
 tipo de objetos requiere un almacenamiento de tipo **heap**. 
-NOTA:(Revisar la sección[CLasesEstandar](..\cCLasesEstandar\ClaseString.java))
+NOTA:(Revisar la sección[Clases Envolventes](/cClasesEnvolventes/aCLASES_ENVOLVENTES.md))
