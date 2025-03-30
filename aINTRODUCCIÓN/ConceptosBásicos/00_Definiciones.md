@@ -8,6 +8,14 @@ Permiten pausar la ejecución del programa en un punto específico y analizar va
 
 ![Breakpoint](..\..\zImages\BreakPoint.png)
 
+<details>
+  <summary>📌 Ver diagrama</summary>
+
+  ![Diagrama](../../zImages/BreakPoint.png)
+
+</details>
+
+
 
 # Lenguaje de Alto Nivel
 Un lenguaje de alto nivel es un lenguaje de programación diseñado para ser fácil de leer y escribir por los humanos. Se abstrae de los detalles específicos del hardware, permitiendo escribir código sin preocuparse por la gestión de memoria o la arquitectura del procesador.
