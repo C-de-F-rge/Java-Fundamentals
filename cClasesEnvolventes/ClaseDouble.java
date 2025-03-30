@@ -19,7 +19,7 @@ public class ClaseDouble {
     // valueOf(double d): devuelve un objeto Double que representa el double d
     private static Double num1 = Double.valueOf(10.0); // convierte un double a un Double
     // valueOf(String s): devuelve un objeto Double que representa el double s
-    private static Double num2 = Double.valueOf("10.0"); // convierte una cadena a un double
+    private static Double num2 = Double.valueOf("10.0"); // convierte una cadena a un Double
     // parseDouble(String s): convierte una cadena a un double
     private static double num3 = Double.parseDouble("10.0"); // convierte una cadena a un double
     // toString(): convierte un double a una cadena

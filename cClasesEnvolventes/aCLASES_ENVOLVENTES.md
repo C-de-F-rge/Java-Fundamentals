@@ -7,6 +7,6 @@ estructuras más complejas que requieran objetos como por ejemplo los famosos
 
 
 Además estas clases tambien pueden implementar sus porpios métodos para facilitar
-algunas tareas con el contenido de estos objetos (Vease por ejemplo en la [sección ClaseString.java](ClaseString.java))
+algunas tareas con el contenido de estos objetos (Vease por ejemplo en la sección [ClaseString.java](ClaseString.java))
 donde encontramos métodos para manipulación de datos como **String.length()** para hallar el número
 de caracteres en una cadena.
