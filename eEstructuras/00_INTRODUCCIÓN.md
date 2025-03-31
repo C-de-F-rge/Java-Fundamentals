@@ -16,20 +16,19 @@ estas a su vez se dividen en grupos a corde a sus utilidades:
 - [switch](/eEstructuras/01_Condicionales/03_switch.md)
 
 ## Estructuras Bucle
-- [While](/eEstructuras/02_Bucles/while.md)
-- [do-while](/eEstructuras/02_Bucles/do-while.md)
-- [for](/eEstructuras/02_Bucles/for.md)
-- [foreach](/eEstructuras/02_Bucles/foreach.md)
+- [While](/eEstructuras/02_Bucles/01_while.md)
+- [do-while](/eEstructuras/02_Bucles/02_do-while.md)
+- [for](/eEstructuras/02_Bucles/03_for.md)
+- [foreach](/eEstructuras/02_Bucles/04_foreach.md)
 
 ## Control de FLujo
-- [break](/eEstructuras/03_Flujo/break.md)
-- [continue](/eEstructuras/03_Flujo/continue.md)
-- [return](/eEstructuras/03_Flujo/return.md)
-- [goto](/eEstructuras/03_Flujo/goto.md)
+- [break](/eEstructuras/03_Flujo/01_break.md)
+- [continue](/eEstructuras/03_Flujo/02_continue.md)
+- [return](/eEstructuras/03_Flujo/03_return.md)
 
 ## Control de Excepciones
-- [try](/eEstructuras/04_Excepciones/try.md)
-- [catch](/eEstructuras/04_Excepciones/catch.md)
-- [finally](/eEstructuras/04_Excepciones/finally.md)
-- [throw](/eEstructuras/04_Excepciones/throw.md)
-- [throws](/eEstructuras/04_Excepciones/theows.md)
+- [try](/eEstructuras/04_Manejo_Excepciones/01_try.md)
+- [catch](/eEstructuras/04_Manejo_Excepciones/02_catch.md)
+- [finally](/eEstructuras/04_Manejo_Excepciones/03_finally.md)
+- [throw](/eEstructuras/04_Manejo_Excepciones/04_throw.md)
+- [throws](/eEstructuras/04_Manejo_Excepciones/05_throws.md)
