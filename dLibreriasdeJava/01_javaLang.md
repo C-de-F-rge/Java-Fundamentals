@@ -1,4 +1,4 @@
-## java.lang
+# java.lang
 **Versión:** _JDK 1.0_
 
 La librería _java.lang_ se incluye de manera automática en todos los programas Java.
@@ -6,7 +6,7 @@ Esta contiene clses esenciales como las (Clases [(Envolventes)](..\cClasesEnvolv
 
 ---
 
-# 1. Manejo de Cadenas (_String_)
+## 1. Manejo de Cadenas (_String_)
 **java.lang.String**
 
 ```java
@@ -28,7 +28,7 @@ Mayúsculas: HOLA, Mundo!
 
 ---
 
-# 2. Conversión de Tipos Primitivos (_Wrapper Classes_)
+## 2. Conversión de Tipos Primitivos (_Wrapper Classes_)
 **Interger, Double, Boolean**
 
 ```java
@@ -45,7 +45,7 @@ public class WrapperExample {
 
 ---
 
-# 3. Manejo de Errores (_Exception y RuntimeException_)
+## 3. Manejo de Errores (_Exception y RuntimeException_)
 
 ```java
 public class ExceptionExample {
@@ -65,7 +65,7 @@ Error: División por cero no permitida.
 
 ---
 
-# 4. Manejo de Hilos (_Thread_)
+## 4. Manejo de Hilos (_Thread_)
 **java.lang.thread**
 
 ```java
@@ -87,7 +87,7 @@ Hilo en ejecución...
 
 ---
 
-# 5. Gestión de Memoria (_System.gc() y Runtime_)
+## 5. Gestión de Memoria (_System.gc() y Runtime_)
 **System, Runtime**
 
 ```java
@@ -103,7 +103,7 @@ public class SystemExample {
 
 ---
 
-# 6. Comparaciones y Operaciones Matemáticas (_Math_)
+## 6. Comparaciones y Operaciones Matemáticas (_Math_)
 **java.lang.Math**
 
 ```java
