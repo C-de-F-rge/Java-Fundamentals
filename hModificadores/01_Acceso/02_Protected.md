@@ -14,6 +14,7 @@ public class ClasePadre {
 }
 ```
 
+**Ejemplo de Manejo:**
 ```java
 package paquete1;
 
@@ -40,6 +41,7 @@ public class ClasePadre {
 }
 ```
 
+**Ejemplo de Manejo:**
 ```java
 package paquete2;
 import paquete1.ClasePadre;

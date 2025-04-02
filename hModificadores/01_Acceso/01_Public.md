@@ -26,7 +26,7 @@ public class MiClase{
 }
 ```
 
-### Ejemplo de Acceso a otra clase:
+**Ejemplo de Manejo:**
 ```java
 MiClase obj = new MiClase();
 obj.mostrarMetodo(); //Se puede llamar sin restricciones.
