@@ -2,7 +2,9 @@
 
 Las Interfaces en Java son una especie de comportamientos, que
 las clases pueden implementar, de tal manera que estos comportamientos
-no son alterables, pero la clase si es expandible.
+no son alterables, pero la clase si es expandible, las interfaces a 
+diferencia de las clases abstractas si obligan a implementar sus 
+métodos.
 
 ## Ejemplo de Aplicación
 Supongamos que tenemos la interfaz **PonerHuevos** de la cual podemos
@@ -15,7 +17,7 @@ public interface PonerHuevos {
 }
 ```
 
-Al momneto de Implementarla en nuestras clases se sobree scriben los
+Al momneto de Implementarla en nuestras clases se sobree scriben **todos** los
 métodos por lo cual utilizamos la anotación **@Override**; las clases tienen mismos
 métodos pero diferentes resultados y en algunos casos puede que incluso distintos
 procemientos.
