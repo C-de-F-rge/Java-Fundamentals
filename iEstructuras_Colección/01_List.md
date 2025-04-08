@@ -128,6 +128,7 @@ public class Main {
         listaPersonas.forEach(p -> System.out.println(p.getName()));
     }
 }
+```
 
 ---
 
@@ -136,7 +137,73 @@ public class Main {
 - Basada en un Array dinámico.
 - Buena para busquedas rápidas por índice, pero las Inserciones/Eliminaciones en posiciones intermedias pueden llegar a ser costosas.
 
+```java
+import java.util.ArrayList;
+import java.util.List;
 
+public class EjemploArrayList{
+    public static void main (String[] args){
+        //Crear ArrayList:
+        List<String> frutas = new ArrayList<>();
 
+        //Agregar Elementos:
+        frutas.add("Manzana");
+        frutas.add("Banáno");
+        frutas.add("Sandía");
 
+        //Insertar una Posición Específica:
+        frutas.add(1,"Durazno");
 
+        //Acceder a un Elemento
+        System.out.println("Elemento en la posición 2: " + frutas.get(2));
+
+        //Utilizar foreach para acceder a los elementos
+        frutas.forEach(System.out::println);
+
+        //ForEach con lambda
+        frutas.forEach(f -> System.out.println("Nombre de la fruta " + f))
+
+        // Buscar un elemento
+        int pos = lista.indexOf("Banána");
+        System.out.println("Posición de 'Banana': " + pos);
+        
+    }
+}
+```
+## LinkedList
+
+- Inserciones y elminaciones eficientes si ya se tiene la posición.
+- Acceso aleatorio más lento, pero es útil para operaciones de cola o pila.
+
+```java
+import java.util.LinkedList;
+import java.util.List;
+
+public class EjemploLinkedList {
+    public static void main(String[] args) {
+        // Crear un LinkedList
+        List<String> lista = new LinkedList<>();
+        
+        // Agregar elementos
+        lista.add("Rojo");
+        lista.add("Verde");
+        lista.add("Azul");
+        
+        // Agregar elemento al inicio
+        ((LinkedList<String>)lista).addFirst("Amarillo");
+        
+        // Acceder y modificar un elemento
+        lista.set(1, "Naranja");
+        
+        // Recorrer la lista con Iterator
+        System.out.println("Recorriendo LinkedList:");
+        for(String color : lista) {
+            System.out.println(color);
+        }
+        
+        // Eliminar un elemento
+        lista.remove("Azul");
+        System.out.println("Después de eliminar 'Azul': " + lista);
+    }
+}
+```
