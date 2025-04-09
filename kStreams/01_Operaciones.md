@@ -9,7 +9,7 @@ Estas no ejecutan nada por sí solas, solo preparan la "tubería" de operaciones
 | [Filter(Predicate)](/kStreams/Operaciones/01_Filter.md) | `Filtra` elementos según la condición. |
 | [Map(Function)](/kStreams/Operaciones/02_Map.md) | `Transforma` cada elemento. |
 | [FlatMap(Function)](/kStreams/Operaciones/03_FlatMap.md) | `Aplana` estructuras anidadas de `streams`. |
-| [Distrinct()](/kStreams/Operaciones/04_District.md) | `Elimina` elementos duplicados. |
+| [Distrinct()](/kStreams/Operaciones/04_Distinct.md) | `Elimina` elementos duplicados. |
 | [Sorted()](/kStreams/Operaciones/05_Sorted.md) | `Ordena` de forma `natural`. |
 | [Sorted(Comparator)](/kStreams/Operaciones/05_Sorted.md) | `Ordena` con un comparador personalizado. |
 | [Limit(n)](/kStreams/Operaciones/06_Limit.md) | `Limíta` el número de elementos. |
